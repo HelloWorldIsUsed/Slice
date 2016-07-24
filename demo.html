@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slice</title>
+</head>
+<body>
+    <div class="slice"></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slice.js"></script>
+    <script>
+       $(function(){
+            var container=$(".slice");
+            var slice=new Slice(container,2,10)
+            slice.cut();
+       })
+    </script>
+</body>
+</html>
